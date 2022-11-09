@@ -24,7 +24,8 @@ const IMC = peso / Math.pow(altura,2);
 if (IMC < 18.5) {
   console.log("Abaixo do peso, com IMC de " + IMC.toFixed(1));
 } else if (IMC >= 18.5 && IMC <= 25) {
-  console.log("Peso normal, com IMC de " + IMC.toFixed(1));
+
+    console.log("Peso normal, com IMC de " + IMC.toFixed(1));
 } else if (IMC >= 25 && IMC <= 30) {
   console.log("Acima do peso com IMC de " + IMC.toFixed(1));
 } else if (IMC >= 30 && IMC <= 40) {
