@@ -38,12 +38,11 @@ class Pessoa {
     }
 }
 const jose = new Pessoa ('José', 70, 1.75);
-//console.log(`O IMC de ${this.nome} é de ${jose.calcularIMC()} e está ${this.classificarIMC}`);
+//console.log(jose.calcularIMC());
 console.log(jose.classificarIMC());
 
-
 const leonardo = new Pessoa ('Leonardo', 85, 1.88);
-//console.log(`O IMC de ${this.nome} é de ${leonardo.calcularIMC()} e está ${this.classificarIMC}`);
+//console.log(leonardo.calcularIMC());
 console.log(leonardo.classificarIMC());
 
 
